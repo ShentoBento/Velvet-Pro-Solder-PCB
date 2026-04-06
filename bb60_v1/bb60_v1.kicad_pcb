@@ -19417,13 +19417,13 @@
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
 		(layer "B.Cu")
 		(uuid "03cc33f0-b571-4aa9-b0da-0c2636509b2a")
-		(at 63.448125 176.140625 180)
+		(at 120.598226 175.022022 180)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C9"
 			(at 0 1.05 0)
 			(layer "B.SilkS")
-			(uuid "c8f516ac-dfca-4f00-9b1a-c214236ae899")
+			(uuid "2b024dee-c7ff-43ec-a2bb-6627db680000")
 			(effects
 				(font
 					(size 1 1)
@@ -19435,7 +19435,7 @@
 		(property "Value" "0.1uF"
 			(at 0 -1.05 0)
 			(layer "B.Fab")
-			(uuid "e2d5a1d9-70aa-49ba-b40e-84a85144a901")
+			(uuid "c3b2a098-817d-4b3c-811e-d05a45a6f7c7")
 			(effects
 				(font
 					(size 1 1)
@@ -19448,7 +19448,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "c02ef99a-76d6-46ca-87c0-661a1f460dc6")
+			(uuid "b72b0a40-618f-44a6-9cf5-29ff90da099a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19460,7 +19460,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "2f2b4024-c8d1-4986-bc36-b791b2529b8c")
+			(uuid "9770163b-22bc-41de-a351-a8b868515e8f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19898,7 +19898,7 @@
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
 		(layer "B.Cu")
 		(uuid "0ef1b833-2f78-43c9-8178-9fd973367936")
-		(at 65.898125 170.890625 180)
+		(at 126.456669 171.450144 180)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C1"
@@ -20379,7 +20379,7 @@
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
 		(layer "B.Cu")
 		(uuid "1361bd66-6924-4980-89f9-0b25756127c1")
-		(at 63.448125 172.640625 180)
+		(at 126.456669 175.022022 180)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C7"
@@ -20537,13 +20537,13 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "B.Cu")
 		(uuid "13fb7aaa-adbc-4b6c-8efd-abf3269bdc7a")
-		(at 60.998125 170.890625 180)
+		(at 91.427889 172.045457 180)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R1"
 			(at 0 1.05 0)
 			(layer "B.SilkS")
-			(uuid "355b0d29-4d77-4359-b7c0-8e1b9d0cff42")
+			(uuid "fcbde3e6-552d-4137-a1b4-bb1b55c3be3a")
 			(effects
 				(font
 					(size 1 1)
@@ -20555,7 +20555,7 @@
 		(property "Value" "10k"
 			(at 0 -1.05 0)
 			(layer "B.Fab")
-			(uuid "916cb888-05d9-4502-ae13-95289d39a558")
+			(uuid "75c383d9-fb50-4a4c-8cfc-133ed836f7a6")
 			(effects
 				(font
 					(size 1 1)
@@ -20568,7 +20568,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "a116ba43-4ead-4e7a-866b-235545baea06")
+			(uuid "ebac37c7-3050-46a2-a767-773a8d906171")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20580,7 +20580,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "0bf77efb-9c0d-4774-9e5d-e618768c439b")
+			(uuid "ec57b88a-e48d-4d6c-a442-974eb38046dc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24099,13 +24099,13 @@
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
 		(layer "B.Cu")
 		(uuid "3f6e3dcf-6779-41db-8065-5bf060a48169")
-		(at 63.448125 170.890625 180)
+		(at 117.026348 171.450144 180)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C5"
 			(at 0 1.05 0)
 			(layer "B.SilkS")
-			(uuid "716c130d-f589-45df-beaa-d019e9c95db5")
+			(uuid "cd21b061-4909-4e75-8915-2a6d1eafdbf3")
 			(effects
 				(font
 					(size 1 1)
@@ -24117,7 +24117,7 @@
 		(property "Value" "100nF"
 			(at 0 -1.05 0)
 			(layer "B.Fab")
-			(uuid "7b305e71-7320-4dc8-a6e9-9e475bd2b50a")
+			(uuid "557f568e-cd19-45a1-881a-870b798b95ac")
 			(effects
 				(font
 					(size 1 1)
@@ -24130,7 +24130,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "9deefd13-5942-4248-be81-336409107148")
+			(uuid "35c2a516-091e-4a95-b281-edf3d3bff6cf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24142,7 +24142,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "e6e6c2c1-a8e0-4eda-97b6-1d4c364d7ada")
+			(uuid "2a3f047d-72e3-440d-8618-169f55efd55e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24580,13 +24580,13 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "B.Cu")
 		(uuid "4beac4c5-e557-4383-bb6b-a5e291a25334")
-		(at 60.998125 174.390625 180)
+		(at 85.474759 172.045457 180)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R3"
 			(at 0 1.05 0)
 			(layer "B.SilkS")
-			(uuid "8903304c-1af8-4278-aff0-34c97b1301af")
+			(uuid "a92ea910-e2d5-4aa7-97fd-7fba2335b798")
 			(effects
 				(font
 					(size 1 1)
@@ -24598,7 +24598,7 @@
 		(property "Value" "22"
 			(at 0 -1.05 0)
 			(layer "B.Fab")
-			(uuid "2748ccb6-68d5-4b11-947b-d7401675ab41")
+			(uuid "9a068fa5-df57-4348-bfce-fe01273f6cc9")
 			(effects
 				(font
 					(size 1 1)
@@ -24611,7 +24611,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "5a20ea20-1cab-4d33-8032-77eae04d123b")
+			(uuid "9016671d-9eaf-4936-8f7c-30a6b09c0fcd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24623,7 +24623,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "2135c8ca-8bf6-4600-9691-1b272d80e947")
+			(uuid "d778c524-694a-4479-b225-410e18af489a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28291,13 +28291,13 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "B.Cu")
 		(uuid "658066b4-0c72-472d-8d7b-0f7ff7da4e0f")
-		(at 60.998125 172.640625 180)
+		(at 88.451324 172.045457 180)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R2"
 			(at 0 1.05 0)
 			(layer "B.SilkS")
-			(uuid "707d3ec2-1da2-45d6-bcea-96b887c67b81")
+			(uuid "cc09e600-0668-43bf-a45a-155001d5690d")
 			(effects
 				(font
 					(size 1 1)
@@ -28309,7 +28309,7 @@
 		(property "Value" "22"
 			(at 0 -1.05 0)
 			(layer "B.Fab")
-			(uuid "2aa31708-c7f0-4c5c-aa56-4723822ff182")
+			(uuid "d4fd8835-bf86-4b75-9399-56901b52f128")
 			(effects
 				(font
 					(size 1 1)
@@ -28322,7 +28322,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "985426ed-b3f4-4158-bcd5-0868dbc964ca")
+			(uuid "c0ae06b0-e6d0-4358-b767-20b84f2a2fbb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28334,7 +28334,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "85c464b6-f0a7-4d12-a85a-afac45273ac1")
+			(uuid "56994a96-e0aa-49a8-b8f5-38b420f5897d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30755,7 +30755,7 @@
 	(footprint "Package_QFP:LQFP-48_7x7mm_P0.5mm"
 		(layer "B.Cu")
 		(uuid "83feb695-c70d-4540-8114-5b652f02792b")
-		(at 109.35875 174.11375 180)
+		(at 109.63766 174.400123 180)
 		(descr "LQFP, 48 Pin (JEDEC MS-026 variation BBC, 1.40mm body thickness, https://www.jedec.org/document_search?search_api_views_fulltext=MS-026, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-lqfp/05081760_a_lx48.pdf)")
 		(tags "LQFP QFP CASE-932AA CASE-932-03 C48-1 C48-2 C48-3 C48-5 C48-6 C48-6C PT0048A")
 		(property "Reference" "U1"
@@ -32293,7 +32293,7 @@
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
 		(layer "B.Cu")
 		(uuid "95ee6f68-d75b-42c8-93ff-f26e47529be4")
-		(at 65.898125 172.640625 180)
+		(at 124.075417 171.450144 180)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C2"
@@ -33541,7 +33541,7 @@
 		(property "Reference" "D6"
 			(at 0 2 90)
 			(layer "B.SilkS")
-			(uuid "638a6b3e-2828-4b38-bfe3-402b808718c9")
+			(uuid "ffdb8d5a-f703-42fc-9520-5b2db1d11694")
 			(effects
 				(font
 					(size 1 1)
@@ -33553,7 +33553,7 @@
 		(property "Value" "1N4148"
 			(at 0 -2.1 90)
 			(layer "B.Fab")
-			(uuid "d3ee099e-fc4d-44db-aebf-237ec35eddc0")
+			(uuid "1e0e5c61-ac56-483e-886b-d8d3ee3a315b")
 			(effects
 				(font
 					(size 1 1)
@@ -33567,7 +33567,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "b33ddd1f-4715-4713-8025-fea0b14e9651")
+			(uuid "7cc742e4-046c-4136-a683-94098156146a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33581,7 +33581,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "2addb1ce-b73a-4118-9cc1-726f82ef2fd5")
+			(uuid "a1bfcd68-c1c7-4874-b6e7-7871a11a0b6d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34520,7 +34520,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at -35.82 -20.75 90)
+			(at -0.317673 -2.14298 90)
 			(layer "B.Fab")
 			(uuid "919754c7-38e6-4851-b45d-516832b194ae")
 			(effects
@@ -36616,7 +36616,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "B.Cu")
 		(uuid "c10d6eeb-d58f-4d4a-9456-d7b29002efd0")
-		(at 65.481875 165.655625 180)
+		(at 97.276645 172.64077 180)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C6"
@@ -38718,7 +38718,7 @@
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
 		(layer "B.Cu")
 		(uuid "d971f900-91f5-4c39-a4db-41ac935f0eea")
-		(at 65.898125 174.390625 180)
+		(at 121.443852 171.450144 180)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C3"
@@ -38876,7 +38876,7 @@
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
 		(layer "B.Cu")
 		(uuid "da37b71a-4845-47da-aafe-f68488507d16")
-		(at 65.898125 176.140625 180)
+		(at 119.0626 171.450144 180)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C4"
@@ -39357,7 +39357,7 @@
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
 		(layer "B.Cu")
 		(uuid "dd014cac-403a-4d95-a54a-a7de4946a02b")
-		(at 63.448125 174.390625 180)
+		(at 123.574791 175.022022 180)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C8"
