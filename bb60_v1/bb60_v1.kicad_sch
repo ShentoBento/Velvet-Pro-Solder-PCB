@@ -3927,12 +3927,6 @@
 		(uuid "810fa8e7-b5b8-45dc-a2f0-5680f151bd64")
 	)
 	(junction
-		(at 248.92 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8304902f-c30b-427c-85fb-c5e63931875a")
-	)
-	(junction
 		(at 198.12 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4059,6 +4053,12 @@
 		(uuid "b83b9448-d91d-4419-bd15-7dca3403e9d6")
 	)
 	(junction
+		(at 116.84 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bcba87bd-af00-4448-bc93-dafb7266abfb")
+	)
+	(junction
 		(at 187.96 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4087,12 +4087,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c068366d-2f01-4a85-b9f9-64e617cdd828")
-	)
-	(junction
-		(at 116.84 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c16aa1ba-2f12-49a7-80b8-c43a3932452a")
 	)
 	(junction
 		(at 22.86 140.97)
@@ -5572,16 +5566,6 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 46.99) (xy 260.35 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c063edc2-e352-44bb-abb5-4c795d6459f2")
-	)
-	(wire
-		(pts
 			(xy 111.76 26.67) (xy 111.76 34.29)
 		)
 		(stroke
@@ -5802,13 +5786,13 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 82.55) (xy 116.84 82.55)
+			(xy 107.95 74.93) (xy 116.84 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e1f0a666-203a-4ee0-846d-0d65f9c56423")
+		(uuid "e2f22c40-9c2d-436a-9024-3e237384f177")
 	)
 	(wire
 		(pts
@@ -5849,16 +5833,6 @@
 			(type default)
 		)
 		(uuid "e6fec1ee-ad78-4846-8126-4e0585c4c3c5")
-	)
-	(wire
-		(pts
-			(xy 243.84 34.29) (xy 255.27 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4dbc995-b539-4e14-b1fa-fb8a5b487cfb")
 	)
 	(wire
 		(pts
@@ -6169,16 +6143,6 @@
 			(justify right bottom)
 		)
 		(uuid "5822b359-58d5-4922-9166-a9428c587361")
-	)
-	(label "ROW0"
-		(at 260.35 46.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5d49ab81-5b23-4327-a24f-87b9ec6d6772")
 	)
 	(label "NRST"
 		(at 199.39 147.32 180)
@@ -6524,7 +6488,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 167.64 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -6626,7 +6590,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
 			(at 264.16 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -6708,7 +6672,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 60.96 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -6757,87 +6721,6 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_solder")
-		(at 257.81 36.83 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "06b10693-1344-4510-998f-b62e691636fc")
-		(property "Reference" "KC_BKSP1"
-			(at 257.81 31.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MX_SW_solder"
-			(at 257.81 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "marbastlib-mx:SW_MX_1u"
-			(at 257.81 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 257.81 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 257.81 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ab6f1643-c4a9-402e-a8bb-fcab57c370b5")
-		)
-		(pin "2"
-			(uuid "c599fb33-a086-4eaa-9350-736023fe6a43")
-		)
-		(instances
-			(project "bb60_v1"
-				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
-					(reference "KC_BKSP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 22.86 143.51 0)
 		(unit 1)
@@ -6871,7 +6754,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 22.86 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -6931,7 +6814,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a3155aa-e6a8-434b-bb4a-931ae92f443f")
-		(property "Reference" "KC_T"
+		(property "Reference" "KC_T1"
 			(at 165.1 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6994,7 +6877,7 @@
 		(instances
 			(project "bb60_v1"
 				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
-					(reference "KC_T")
+					(reference "KC_T1")
 					(unit 1)
 				)
 			)
@@ -7112,7 +6995,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 218.44 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -7216,7 +7099,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 147.32 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -7320,7 +7203,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 187.96 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -7424,7 +7307,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 208.28 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -7506,7 +7389,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12bbca5b-97d8-4840-85ef-cfe39516fa0e")
-		(property "Reference" "KC_RGUI"
+		(property "Reference" "KC_RGUI1"
 			(at 236.22 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7569,7 +7452,7 @@
 		(instances
 			(project "bb60_v1"
 				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
-					(reference "KC_RGUI")
+					(reference "KC_RGUI1")
 					(unit 1)
 				)
 			)
@@ -7609,7 +7492,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 228.6 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -7791,7 +7674,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 127 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -7895,7 +7778,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 157.48 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -8058,7 +7941,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2158eae1-e936-4c6b-997d-26f8a1a8cddb")
-		(property "Reference" "KC_RBRC"
+		(property "Reference" "KC_RBRC1"
 			(at 236.22 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8121,7 +8004,7 @@
 		(instances
 			(project "bb60_v1"
 				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
-					(reference "KC_RBRC")
+					(reference "KC_RBRC1")
 					(unit 1)
 				)
 			)
@@ -8161,7 +8044,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 218.44 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -8343,7 +8226,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 116.84 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -8436,7 +8319,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "1uF"
 			(at 76.2 179.0635 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8447,7 +8330,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 73.66 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -8529,7 +8412,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 248.92 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -8633,7 +8516,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 35.56 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -8715,7 +8598,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 228.6 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -8819,7 +8702,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 137.16 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -8923,7 +8806,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 137.16 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -9320,7 +9203,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30eb6b9f-c900-427d-bb1a-f8bec73d507b")
-		(property "Reference" "KC_BKSP"
+		(property "Reference" "KC_BKSP1"
 			(at 246.38 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9341,7 +9224,7 @@
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "marbastlib-mx:STAB_MX_2u"
 			(at 246.38 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -9383,7 +9266,7 @@
 		(instances
 			(project "bb60_v1"
 				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
-					(reference "KC_BKSP")
+					(reference "KC_BKSP1")
 					(unit 1)
 				)
 			)
@@ -9601,7 +9484,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 238.76 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -9683,7 +9566,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35e5b365-0776-47c5-aed7-e1c8d8f252fa")
-		(property "Reference" "KC_SPC"
+		(property "Reference" "KC_SPC1"
 			(at 175.26 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9704,7 +9587,7 @@
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "marbastlib-mx:STAB_MX_7u"
 			(at 175.26 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -9746,7 +9629,7 @@
 		(instances
 			(project "bb60_v1"
 				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
-					(reference "KC_SPC")
+					(reference "KC_SPC1")
 					(unit 1)
 				)
 			)
@@ -9786,7 +9669,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 147.32 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -9868,7 +9751,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36eeaa76-ca8a-43f6-9940-580f71c2fa39")
-		(property "Reference" "KC_SCLN"
+		(property "Reference" "KC_SCLN1"
 			(at 215.9 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9931,7 +9814,7 @@
 		(instances
 			(project "bb60_v1"
 				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
-					(reference "KC_SCLN")
+					(reference "KC_SCLN1")
 					(unit 1)
 				)
 			)
@@ -9971,7 +9854,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 157.48 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -10156,7 +10039,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 177.8 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -10238,7 +10121,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c1236b2-7ad5-49a9-8aa7-4be8222ef5da")
-		(property "Reference" "KC_K"
+		(property "Reference" "KC_K1"
 			(at 195.58 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10301,7 +10184,7 @@
 		(instances
 			(project "bb60_v1"
 				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
-					(reference "KC_K")
+					(reference "KC_K1")
 					(unit 1)
 				)
 			)
@@ -10341,7 +10224,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 167.64 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -10445,7 +10328,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 254 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -10527,7 +10410,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 73.66 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -10587,7 +10470,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f97434f-37f7-41bd-99c0-018a562bbb11")
-		(property "Reference" "KC_LALT"
+		(property "Reference" "KC_LALT1"
 			(at 134.62 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10608,7 +10491,7 @@
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "marbastlib-mx:SW_MX_1.5u"
 			(at 134.62 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -10650,7 +10533,7 @@
 		(instances
 			(project "bb60_v1"
 				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
-					(reference "KC_LALT")
+					(reference "KC_LALT1")
 					(unit 1)
 				)
 			)
@@ -10668,7 +10551,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43b36009-acbf-4bf7-8569-7899a6ff533f")
-		(property "Reference" "KC_V"
+		(property "Reference" "KC_V1"
 			(at 165.1 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10731,7 +10614,7 @@
 		(instances
 			(project "bb60_v1"
 				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
-					(reference "KC_V")
+					(reference "KC_V1")
 					(unit 1)
 				)
 			)
@@ -10771,7 +10654,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 187.96 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -10931,7 +10814,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46aa6b31-5a9b-4431-9062-9d39588399a1")
-		(property "Reference" "KC_W"
+		(property "Reference" "KC_W1"
 			(at 134.62 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10994,7 +10877,7 @@
 		(instances
 			(project "bb60_v1"
 				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
-					(reference "KC_W")
+					(reference "KC_W1")
 					(unit 1)
 				)
 			)
@@ -11034,7 +10917,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 248.92 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -11138,7 +11021,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 177.8 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -11242,7 +11125,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 116.84 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -11346,7 +11229,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 167.64 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -11450,7 +11333,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 238.76 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -11554,7 +11437,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 137.16 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -11636,7 +11519,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "534547e1-ea2a-43bc-8298-3b9bec0be6fa")
-		(property "Reference" "KC_B"
+		(property "Reference" "KC_B1"
 			(at 175.26 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11699,7 +11582,7 @@
 		(instances
 			(project "bb60_v1"
 				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
-					(reference "KC_B")
+					(reference "KC_B1")
 					(unit 1)
 				)
 			)
@@ -11739,7 +11622,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 218.44 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -11821,7 +11704,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "578f45a5-8b6b-4561-8e8f-3eaad7771e9c")
-		(property "Reference" "KC_E"
+		(property "Reference" "KC_E1"
 			(at 144.78 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11884,7 +11767,7 @@
 		(instances
 			(project "bb60_v1"
 				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
-					(reference "KC_E")
+					(reference "KC_E1")
 					(unit 1)
 				)
 			)
@@ -11902,7 +11785,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57f7ea2a-9f3e-4a7c-98b3-e3dc8736b297")
-		(property "Reference" "KC_BSLS"
+		(property "Reference" "KC_BSLS1"
 			(at 246.38 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11923,7 +11806,7 @@
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "marbastlib-mx:SW_MX_1.5u"
 			(at 246.38 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -11965,7 +11848,7 @@
 		(instances
 			(project "bb60_v1"
 				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
-					(reference "KC_BSLS")
+					(reference "KC_BSLS1")
 					(unit 1)
 				)
 			)
@@ -11983,7 +11866,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5caf8bb6-732c-4a1c-ab44-114bd1cacc6e")
-		(property "Reference" "KC_P"
+		(property "Reference" "KC_P1"
 			(at 215.9 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12046,7 +11929,7 @@
 		(instances
 			(project "bb60_v1"
 				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
-					(reference "KC_P")
+					(reference "KC_P1")
 					(unit 1)
 				)
 			)
@@ -12164,7 +12047,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 208.28 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -12246,7 +12129,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60eb21d3-4905-4194-833d-9e3a77c93eda")
-		(property "Reference" "KC_RALT"
+		(property "Reference" "KC_RALT1"
 			(at 226.06 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12267,7 +12150,7 @@
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "marbastlib-mx:SW_MX_1.5u"
 			(at 226.06 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -12309,7 +12192,7 @@
 		(instances
 			(project "bb60_v1"
 				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
-					(reference "KC_RALT")
+					(reference "KC_RALT1")
 					(unit 1)
 				)
 			)
@@ -12349,7 +12232,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 228.6 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -12453,7 +12336,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 248.92 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -12557,7 +12440,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 177.8 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -12661,7 +12544,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 218.44 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -12743,7 +12626,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "647524c1-dd0c-4765-926b-8f5d27b73805")
-		(property "Reference" "KC_RSFT"
+		(property "Reference" "KC_RSFT1"
 			(at 236.22 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12806,7 +12689,7 @@
 		(instances
 			(project "bb60_v1"
 				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
-					(reference "KC_RSFT")
+					(reference "KC_RSFT1")
 					(unit 1)
 				)
 			)
@@ -12824,7 +12707,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6529bce8-b484-4cf8-808b-7d83ba2be45d")
-		(property "Reference" "KC_CAPS"
+		(property "Reference" "KC_CAPS1"
 			(at 114.3 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12845,7 +12728,7 @@
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "marbastlib-mx:SW_MX_1.75u"
 			(at 114.3 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -12887,7 +12770,7 @@
 		(instances
 			(project "bb60_v1"
 				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
-					(reference "KC_CAPS")
+					(reference "KC_CAPS1")
 					(unit 1)
 				)
 			)
@@ -12905,7 +12788,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6bfaacb6-0225-45c9-a22e-6724efe9d80b")
-		(property "Reference" "KC_RCTL"
+		(property "Reference" "KC_RCTL1"
 			(at 246.38 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12926,7 +12809,7 @@
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "marbastlib-mx:SW_MX_1.5u"
 			(at 246.38 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -12968,7 +12851,7 @@
 		(instances
 			(project "bb60_v1"
 				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
-					(reference "KC_RCTL")
+					(reference "KC_RCTL1")
 					(unit 1)
 				)
 			)
@@ -13008,7 +12891,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 137.16 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -13112,7 +12995,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 208.28 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -13216,7 +13099,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 198.12 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -13298,7 +13181,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fc879fe-47fe-443f-b1e7-b3968753bbd1")
-		(property "Reference" "KC_X"
+		(property "Reference" "KC_X1"
 			(at 144.78 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13361,7 +13244,7 @@
 		(instances
 			(project "bb60_v1"
 				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
-					(reference "KC_X")
+					(reference "KC_X1")
 					(unit 1)
 				)
 			)
@@ -13460,7 +13343,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7900951c-d477-493d-aae1-4b44020f221b")
-		(property "Reference" "KC_LCTL"
+		(property "Reference" "KC_LCTL1"
 			(at 114.3 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13481,7 +13364,7 @@
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "marbastlib-mx:SW_MX_1.5u"
 			(at 114.3 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -13523,7 +13406,7 @@
 		(instances
 			(project "bb60_v1"
 				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
-					(reference "KC_LCTL")
+					(reference "KC_LCTL1")
 					(unit 1)
 				)
 			)
@@ -13563,7 +13446,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 238.76 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -13888,7 +13771,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 228.6 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -13992,7 +13875,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 167.64 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -14085,7 +13968,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "1uF"
 			(at 101.6 179.0635 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14096,7 +13979,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 99.06 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -14156,7 +14039,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8161e812-f606-4d7c-92d9-6b223e6f27ed")
-		(property "Reference" "KC_Z"
+		(property "Reference" "KC_Z1"
 			(at 134.62 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14219,7 +14102,7 @@
 		(instances
 			(project "bb60_v1"
 				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
-					(reference "KC_Z")
+					(reference "KC_Z1")
 					(unit 1)
 				)
 			)
@@ -14259,7 +14142,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 177.8 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -14363,7 +14246,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 116.84 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -14467,7 +14350,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 187.96 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -14630,7 +14513,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85bbc9d0-21b3-4b67-80ea-f12946dea279")
-		(property "Reference" "KC_S"
+		(property "Reference" "KC_S1"
 			(at 134.62 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14693,7 +14576,7 @@
 		(instances
 			(project "bb60_v1"
 				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
-					(reference "KC_S")
+					(reference "KC_S1")
 					(unit 1)
 				)
 			)
@@ -14733,7 +14616,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 157.48 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -14837,7 +14720,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 198.12 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -14919,7 +14802,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8856ffd5-7989-4026-904f-719876591fbd")
-		(property "Reference" "KC_H"
+		(property "Reference" "KC_H1"
 			(at 175.26 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14982,7 +14865,7 @@
 		(instances
 			(project "bb60_v1"
 				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
-					(reference "KC_H")
+					(reference "KC_H1")
 					(unit 1)
 				)
 			)
@@ -15000,7 +14883,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a84347e-3c5c-45bc-b11e-ecd8cc029660")
-		(property "Reference" "KC_ENT"
+		(property "Reference" "KC_ENT1"
 			(at 236.22 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15021,7 +14904,7 @@
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_2.25u_PCB"
 			(at 236.22 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -15063,7 +14946,7 @@
 		(instances
 			(project "bb60_v1"
 				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
-					(reference "KC_ENT")
+					(reference "KC_ENT1")
 					(unit 1)
 				)
 			)
@@ -15103,7 +14986,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 48.26 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -15163,7 +15046,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c8081a1-2398-4c26-bbef-33913ecebe2a")
-		(property "Reference" "KC_COMM"
+		(property "Reference" "KC_COMM1"
 			(at 205.74 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15226,7 +15109,7 @@
 		(instances
 			(project "bb60_v1"
 				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
-					(reference "KC_COMM")
+					(reference "KC_COMM1")
 					(unit 1)
 				)
 			)
@@ -15244,7 +15127,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ffeec82-8c6c-4de4-8751-fe46fcfff210")
-		(property "Reference" "KC_N"
+		(property "Reference" "KC_N1"
 			(at 185.42 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15307,7 +15190,7 @@
 		(instances
 			(project "bb60_v1"
 				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
-					(reference "KC_N")
+					(reference "KC_N1")
 					(unit 1)
 				)
 			)
@@ -15347,7 +15230,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 127 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -15513,7 +15396,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96e80dc4-fa81-4257-bfeb-456783b7c646")
-		(property "Reference" "KC_Y"
+		(property "Reference" "KC_Y1"
 			(at 175.26 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15576,7 +15459,7 @@
 		(instances
 			(project "bb60_v1"
 				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
-					(reference "KC_Y")
+					(reference "KC_Y1")
 					(unit 1)
 				)
 			)
@@ -15594,7 +15477,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97e6bea6-5a53-4791-a449-9a42cf2014d4")
-		(property "Reference" "KC_LGUI"
+		(property "Reference" "KC_LGUI1"
 			(at 124.46 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15657,7 +15540,7 @@
 		(instances
 			(project "bb60_v1"
 				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
-					(reference "KC_LGUI")
+					(reference "KC_LGUI1")
 					(unit 1)
 				)
 			)
@@ -15697,7 +15580,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 238.76 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -15779,7 +15662,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98e06938-3b65-44ba-b6fa-9e7cddc5b602")
-		(property "Reference" "KC_A"
+		(property "Reference" "KC_A1"
 			(at 124.46 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15842,7 +15725,7 @@
 		(instances
 			(project "bb60_v1"
 				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
-					(reference "KC_A")
+					(reference "KC_A1")
 					(unit 1)
 				)
 			)
@@ -15882,7 +15765,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 187.96 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -16072,7 +15955,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 157.48 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -16235,7 +16118,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0e43686-61b9-4f32-85b1-31cc8b358230")
-		(property "Reference" "KC_M"
+		(property "Reference" "KC_M1"
 			(at 195.58 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16298,7 +16181,7 @@
 		(instances
 			(project "bb60_v1"
 				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
-					(reference "KC_M")
+					(reference "KC_M1")
 					(unit 1)
 				)
 			)
@@ -16338,7 +16221,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 147.32 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -16442,7 +16325,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 127 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -16544,7 +16427,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 118.11 151.892 90)
 			(hide yes)
 			(show_name no)
@@ -16624,7 +16507,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
 			(at 213.36 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -16684,7 +16567,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a74ef451-4ede-4d01-abc5-cec9917e5b08")
-		(property "Reference" "KC_SLSH"
+		(property "Reference" "KC_SLSH1"
 			(at 226.06 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16747,7 +16630,7 @@
 		(instances
 			(project "bb60_v1"
 				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
-					(reference "KC_SLSH")
+					(reference "KC_SLSH1")
 					(unit 1)
 				)
 			)
@@ -16787,7 +16670,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 198.12 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -16970,7 +16853,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 116.84 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -17074,7 +16957,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 238.76 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -17156,7 +17039,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b485bd9e-ee95-48c1-a109-ebe2e77e8673")
-		(property "Reference" "KC_D"
+		(property "Reference" "KC_D1"
 			(at 144.78 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17219,7 +17102,7 @@
 		(instances
 			(project "bb60_v1"
 				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
-					(reference "KC_D")
+					(reference "KC_D1")
 					(unit 1)
 				)
 			)
@@ -17315,7 +17198,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9720201-2b9f-4403-957b-d83d18f7efaa")
-		(property "Reference" "KC_ESC"
+		(property "Reference" "KC_ESC1"
 			(at 114.3 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17378,7 +17261,7 @@
 		(instances
 			(project "bb60_v1"
 				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
-					(reference "KC_ESC")
+					(reference "KC_ESC1")
 					(unit 1)
 				)
 			)
@@ -17418,7 +17301,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 87.63 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -17500,7 +17383,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 147.32 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -17582,7 +17465,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be4278ef-0b64-4eaf-986f-9ade39ea3292")
-		(property "Reference" "KC_TAB"
+		(property "Reference" "KC_TAB1"
 			(at 114.3 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17603,7 +17486,7 @@
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "marbastlib-mx:SW_MX_1.5u"
 			(at 114.3 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -17645,7 +17528,7 @@
 		(instances
 			(project "bb60_v1"
 				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
-					(reference "KC_TAB")
+					(reference "KC_TAB1")
 					(unit 1)
 				)
 			)
@@ -17663,7 +17546,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c087c3e3-e07d-4bcf-9bc3-6b18e8331eea")
-		(property "Reference" "KC_Q"
+		(property "Reference" "KC_Q1"
 			(at 124.46 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17726,7 +17609,7 @@
 		(instances
 			(project "bb60_v1"
 				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
-					(reference "KC_Q")
+					(reference "KC_Q1")
 					(unit 1)
 				)
 			)
@@ -17744,7 +17627,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2069b83-bd87-42a5-818b-647fc4a00412")
-		(property "Reference" "KC_F"
+		(property "Reference" "KC_F1"
 			(at 154.94 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17807,111 +17690,7 @@
 		(instances
 			(project "bb60_v1"
 				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
-					(reference "KC_F")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 107.95 78.74 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c307c651-b7a4-4e11-b1b0-cad5e5ef0760")
-		(property "Reference" "D42"
-			(at 110.49 77.4699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 110.49 80.0099 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 107.95 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 107.95 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 107.95 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 107.95 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 107.95 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4542b7a9-6b3c-40ce-8c3a-8fe257c9602f")
-		)
-		(pin "1"
-			(uuid "1b7fb3fc-1f6a-443c-b78e-eb0f7402ad03")
-		)
-		(instances
-			(project "bb60_v1"
-				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
-					(reference "D42")
+					(reference "KC_F1")
 					(unit 1)
 				)
 			)
@@ -18007,7 +17786,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8318d57-d908-4a10-be78-0387da429513")
-		(property "Reference" "KC_LSFT"
+		(property "Reference" "KC_LSFT1"
 			(at 114.3 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18028,7 +17807,7 @@
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_2.25u_PCB"
 			(at 114.3 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -18070,111 +17849,7 @@
 		(instances
 			(project "bb60_v1"
 				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
-					(reference "KC_LSFT")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 260.35 43.18 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c8acc4f2-3456-4de2-8d10-e50b14405b24")
-		(property "Reference" "D63"
-			(at 262.89 41.9099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 262.89 44.4499 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 260.35 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 260.35 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 260.35 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 260.35 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 260.35 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "cb41d574-0283-4a23-be0d-4a5c121809f9")
-		)
-		(pin "1"
-			(uuid "e8dfb390-8e77-4585-a393-1eb1b93a1f60")
-		)
-		(instances
-			(project "bb60_v1"
-				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
-					(reference "D63")
+					(reference "KC_LSFT1")
 					(unit 1)
 				)
 			)
@@ -18192,7 +17867,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9d673d3-c247-4640-91b9-90ad57c43442")
-		(property "Reference" "KC_L"
+		(property "Reference" "KC_L1"
 			(at 205.74 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18255,7 +17930,7 @@
 		(instances
 			(project "bb60_v1"
 				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
-					(reference "KC_L")
+					(reference "KC_L1")
 					(unit 1)
 				)
 			)
@@ -18273,7 +17948,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdc2285b-641c-42d0-93d3-aa617fe06046")
-		(property "Reference" "KC_J"
+		(property "Reference" "KC_J1"
 			(at 185.42 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18336,7 +18011,7 @@
 		(instances
 			(project "bb60_v1"
 				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
-					(reference "KC_J")
+					(reference "KC_J1")
 					(unit 1)
 				)
 			)
@@ -18354,7 +18029,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d538cdc8-4320-4472-add0-f414960d022d")
-		(property "Reference" "KC_R"
+		(property "Reference" "KC_R1"
 			(at 154.94 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18417,7 +18092,7 @@
 		(instances
 			(project "bb60_v1"
 				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
-					(reference "KC_R")
+					(reference "KC_R1")
 					(unit 1)
 				)
 			)
@@ -18435,7 +18110,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d772350e-2c8e-4998-ae69-4fd4bf97285a")
-		(property "Reference" "KC_MINS"
+		(property "Reference" "KC_MINS1"
 			(at 226.06 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18498,7 +18173,7 @@
 		(instances
 			(project "bb60_v1"
 				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
-					(reference "KC_MINS")
+					(reference "KC_MINS1")
 					(unit 1)
 				)
 			)
@@ -18516,7 +18191,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d80fad0b-6525-4141-9ddb-7cbe1d43440a")
-		(property "Reference" "KC_LBRC"
+		(property "Reference" "KC_LBRC1"
 			(at 226.06 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18579,7 +18254,7 @@
 		(instances
 			(project "bb60_v1"
 				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
-					(reference "KC_LBRC")
+					(reference "KC_LBRC1")
 					(unit 1)
 				)
 			)
@@ -18597,7 +18272,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d93c4be5-2c7d-4839-baf9-8b70bf3bd719")
-		(property "Reference" "KC_DOT"
+		(property "Reference" "KC_DOT1"
 			(at 215.9 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18660,7 +18335,7 @@
 		(instances
 			(project "bb60_v1"
 				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
-					(reference "KC_DOT")
+					(reference "KC_DOT1")
 					(unit 1)
 				)
 			)
@@ -18700,7 +18375,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 208.28 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -18782,7 +18457,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc47a538-a11e-4aa8-8a08-37d1c69d5c3d")
-		(property "Reference" "KC_G"
+		(property "Reference" "KC_G1"
 			(at 165.1 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18845,7 +18520,7 @@
 		(instances
 			(project "bb60_v1"
 				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
-					(reference "KC_G")
+					(reference "KC_G1")
 					(unit 1)
 				)
 			)
@@ -18963,7 +18638,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 248.92 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -19045,7 +18720,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e22a0629-55d7-4a92-a2c3-e3e35e3bacb1")
-		(property "Reference" "KC_STEP"
+		(property "Reference" "KC_STEP1"
 			(at 105.41 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19066,7 +18741,7 @@
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "marbastlib-mx:SW_MX_1.75u_STP_1.25"
 			(at 105.41 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -19108,7 +18783,7 @@
 		(instances
 			(project "bb60_v1"
 				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
-					(reference "KC_STEP")
+					(reference "KC_STEP1")
 					(unit 1)
 				)
 			)
@@ -19126,7 +18801,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e27f576b-3374-4ba1-8ea5-9b04a9cbe3bb")
-		(property "Reference" "KC_I"
+		(property "Reference" "KC_I1"
 			(at 195.58 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19189,7 +18864,7 @@
 		(instances
 			(project "bb60_v1"
 				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
-					(reference "KC_I")
+					(reference "KC_I1")
 					(unit 1)
 				)
 			)
@@ -19310,7 +18985,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 177.8 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -19495,7 +19170,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 198.12 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -19680,7 +19355,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 116.84 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -19840,7 +19515,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee458d1e-8e6f-48c4-aeb2-c566ab3df50a")
-		(property "Reference" "KC_EQL"
+		(property "Reference" "KC_EQL1"
 			(at 236.22 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19903,7 +19578,7 @@
 		(instances
 			(project "bb60_v1"
 				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
-					(reference "KC_EQL")
+					(reference "KC_EQL1")
 					(unit 1)
 				)
 			)
@@ -19921,7 +19596,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f25723cc-548f-4c15-827a-230dc00bbe1c")
-		(property "Reference" "KC_O"
+		(property "Reference" "KC_O1"
 			(at 205.74 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19984,7 +19659,7 @@
 		(instances
 			(project "bb60_v1"
 				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
-					(reference "KC_O")
+					(reference "KC_O1")
 					(unit 1)
 				)
 			)
@@ -20024,7 +19699,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 137.16 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -20128,7 +19803,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 203.2 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -20208,7 +19883,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 118.11 140.462 90)
 			(hide yes)
 			(show_name no)
@@ -20290,7 +19965,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 127 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -20453,7 +20128,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb454ffc-95a4-4cd6-940d-137c0481a122")
-		(property "Reference" "KC_U"
+		(property "Reference" "KC_U1"
 			(at 185.42 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20516,7 +20191,7 @@
 		(instances
 			(project "bb60_v1"
 				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
-					(reference "KC_U")
+					(reference "KC_U1")
 					(unit 1)
 				)
 			)
@@ -20612,7 +20287,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fcdcc63b-9c50-4c95-9b5c-4b302120ed5e")
-		(property "Reference" "KC_QUOT"
+		(property "Reference" "KC_QUOT1"
 			(at 226.06 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20675,7 +20350,7 @@
 		(instances
 			(project "bb60_v1"
 				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
-					(reference "KC_QUOT")
+					(reference "KC_QUOT1")
 					(unit 1)
 				)
 			)
@@ -20693,7 +20368,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fef17e5f-a0c3-432d-a0ee-8a112a74a9a4")
-		(property "Reference" "KC_C"
+		(property "Reference" "KC_C1"
 			(at 154.94 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20756,7 +20431,7 @@
 		(instances
 			(project "bb60_v1"
 				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
-					(reference "KC_C")
+					(reference "KC_C1")
 					(unit 1)
 				)
 			)
@@ -20796,7 +20471,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 228.6 60.96 0)
 			(hide yes)
 			(show_name no)

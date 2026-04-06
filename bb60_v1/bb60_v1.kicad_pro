@@ -3,6 +3,8 @@
     "3dviewports": [],
     "design_settings": {
       "defaults": {
+        "apply_defaults_to_fp_barcodes": false,
+        "apply_defaults_to_fp_dimensions": false,
         "apply_defaults_to_fp_fields": false,
         "apply_defaults_to_fp_shapes": false,
         "apply_defaults_to_fp_text": false,
@@ -71,6 +73,7 @@
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_filters_mismatch": "ignore",
+        "footprint_symbol_field_mismatch": "warning",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
@@ -88,6 +91,7 @@
         "mirrored_text_on_front_layer": "warning",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
+        "missing_tuning_profile": "warning",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "ignore",
@@ -107,9 +111,12 @@
         "too_many_vias": "error",
         "track_angle": "error",
         "track_dangling": "warning",
+        "track_not_centered_on_via": "ignore",
+        "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
+        "tuning_profile_track_geometries": "ignore",
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
@@ -545,15 +552,27 @@
           "show": true
         },
         {
-          "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
-          "show": true
-        },
-        {
           "group_by": true,
           "label": "Value",
           "name": "Value",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Datasheet",
+          "name": "Datasheet",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Footprint",
+          "name": "Footprint",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
           "show": true
         },
         {
@@ -563,34 +582,46 @@
           "show": true
         },
         {
-          "group_by": true,
-          "label": "Exclude from BOM",
-          "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
-        },
-        {
-          "group_by": true,
+          "group_by": false,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Footprint",
-          "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
-          "label": "Datasheet",
-          "name": "Datasheet",
-          "show": true
+          "label": "Exclude from BOM",
+          "name": "${EXCLUDE_FROM_BOM}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "include_excluded_from_bom": false,
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -643,7 +674,7 @@
         "uuid": "e464f1d1-4c01-4fad-a203-20008a0f30b7"
       }
     ],
-    "used_designators": "MX1-18,KC_BKSP1,U1-3,D1-63,#PWR1-15,C1-9,KC_CAPS1,KC_LBRC1,J1,KC_10-19,KC_EQL1,KC_ESC1,KC_MINS1,KC_J1,KC_BSLS1,KC_LSFT1-2,KC_E1,SW1-2,KC_I1,KC_O1,KC_P1,KC_Q1,KC_R1,KC_RBRC1,KC_T1,KC_TAB1,KC_U1,KC_W1,KC_Y1,KC_A1,KC_D1,KC_EMPT1,KC_G1,KC_ENT1,KC_F1,KC_H1,KC_K1,KC_L1,KC_QUOT1,KC_S1,KC_MO2,KC_SCLN1,KC_C1,KC_X1,KC_Z1,KC_LALT1,KC_RSFT1,KC_SLSH1,#FLG1,R1-3",
+    "used_designators": "MX1-18,KC_BKSP1,U1-3,KC_RCTL1,D1-63,KC_DOT1,#PWR1-15,C1-9,KC_RGUI1,KC_CAPS1,KC_LBRC1,J1,KC_SPC1,KC_10-19,KC_N1,KC_EQL1,KC_ESC1,KC_MINS1,KC_J1,KC_BSLS1,KC_LSFT1-2,KC_E1,SW1-2,KC_I1,KC_O1,KC_P1,KC_Q1,KC_R1,KC_RBRC1,KC_T1,KC_TAB1,KC_U1,KC_W1,KC_Y1,KC_A1,KC_D1,KC_EMPT1,KC_G1,KC_ENT1,KC_F1,KC_H1,KC_K1,KC_L1,KC_QUOT1,KC_S1,KC_MO2,KC_SCLN1,KC_C1,KC_X1,KC_Z1,KC_LGUI1,KC_LALT1,KC_RALT1,KC_RSFT1,KC_SLSH1,#FLG1,R1-3,KC_B1,KC_COMM1,KC_LCTL1,KC_M1,KC_STEP1,KC_V1",
     "variants": []
   },
   "sheets": [
