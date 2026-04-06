@@ -1,7 +1,9 @@
 (fp_lib_table
 	(version 7)
-	(lib (name "marbastlib-xp-mx") (type "KiCad") (uri "C:/Users/shent/OneDrive/Documents/KiCad/9.0/projects/BB60_v1/libraries/footprints/marbastlib-xp-mx.pretty") (options "") (descr ""))
-	(lib (name "marbastlib-various") (type "KiCad") (uri "C:/Users/shent/OneDrive/Documents/KiCad/9.0/projects/BB60_v1/libraries/footprints/marbastlib-various.pretty") (options "") (descr ""))
-	(lib (name "marbastlib-mx") (type "KiCad") (uri "C:/Users/shent/OneDrive/Documents/KiCad/9.0/projects/BB60_v1/libraries/footprints/marbastlib-mx.pretty") (options "") (descr ""))
-	(lib (name "marbastlib-xp-various") (type "KiCad") (uri "C:/Users/shent/OneDrive/Documents/KiCad/9.0/projects/BB60_v1/libraries/footprints/marbastlib-xp-various.pretty") (options "") (descr ""))
+	(lib (name "marbastlib-xp-mx") (type "KiCad") (uri "${KIPRJMOD}/../libraries/footprints/marbastlib-xp-mx.pretty") (options "") (descr ""))
+	(lib (name "marbastlib-various") (type "KiCad") (uri "${KIPRJMOD}/../libraries/footprints/marbastlib-various.pretty") (options "") (descr ""))
+	(lib (name "marbastlib-mx") (type "KiCad") (uri "${KIPRJMOD}/../libraries/footprints/marbastlib-mx.pretty") (options "") (descr ""))
+	(lib (name "marbastlib-xp-various") (type "KiCad") (uri "${KIPRJMOD}/../libraries/footprints/marbastlib-xp-various.pretty") (options "") (descr ""))
+	(lib (name "MX_Solderable") (type "KiCad") (uri "/Users/shentu/Developer/MyKiCad/BB60_v1/Ai03_MX_V2/MX_Solderable.pretty") (options "") (descr ""))
+	(lib (name "Alps_MX_Stabilizers") (type "KiCad") (uri "/Users/shentu/Developer/MyKiCad/BB60_v1/Ai03_MX_V2/Alps_MX_Stabilizers.pretty") (options "") (descr ""))
 )
