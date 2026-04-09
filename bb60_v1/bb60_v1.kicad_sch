@@ -5915,7 +5915,7 @@
 		(uuid "ff0502aa-64cf-4aea-886e-29eca463c839")
 	)
 	(label "COL11"
-		(at 25.4 54.61 180)
+		(at 25.4 49.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6055,7 +6055,7 @@
 		(uuid "2e2c9765-c13d-4665-97f0-299cda7ffb8a")
 	)
 	(label "COL8"
-		(at 25.4 46.99 180)
+		(at 25.4 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6105,7 +6105,7 @@
 		(uuid "4cd32209-84d1-48e4-a884-ef463c28f789")
 	)
 	(label "COL7"
-		(at 25.4 49.53 180)
+		(at 25.4 54.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6125,7 +6125,7 @@
 		(uuid "54cde068-2122-41e3-b487-e739763f99fd")
 	)
 	(label "COL10"
-		(at 25.4 57.15 180)
+		(at 25.4 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
