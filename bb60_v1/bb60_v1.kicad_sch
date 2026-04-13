@@ -3520,16 +3520,6 @@
 		)
 		(uuid "4ee7425a-0d1b-49b1-ab44-528b6e8ba947")
 	)
-	(text "to fix: check regulator pin continuity"
-		(exclude_from_sim no)
-		(at 86.614 189.484 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "5b377f98-98ba-4887-bd5b-4d344b0e3f0d")
-	)
 	(text "JST-SH 4 Pin Connector"
 		(exclude_from_sim no)
 		(at 36.322 162.052 0)
