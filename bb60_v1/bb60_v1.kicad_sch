@@ -6145,7 +6145,7 @@
 		(uuid "621bf932-7384-4466-b991-3dd00aee93c0")
 	)
 	(label "COL2"
-		(at 60.96 72.39 0)
+		(at 60.96 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6155,12 +6155,12 @@
 		(uuid "6a280c60-93bf-490a-becc-75ca1b3d6b34")
 	)
 	(label "COL3"
-		(at 60.96 74.93 0)
+		(at 25.4 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "6d5b0dfd-948a-4d11-b40f-95b07027dcbe")
 	)
