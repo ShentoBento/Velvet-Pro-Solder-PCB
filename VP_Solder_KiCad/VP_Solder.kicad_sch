@@ -8187,7 +8187,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1aca8f8c-c3ce-4f88-bd91-2b9e3308690e")
-		(property "Reference" "GND"
+		(property "Reference" "GND1"
 			(at 162.56 173.2279 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8248,7 +8248,7 @@
 		(instances
 			(project "VP_Solder"
 				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
-					(reference "GND")
+					(reference "GND1")
 					(unit 1)
 				)
 			)
