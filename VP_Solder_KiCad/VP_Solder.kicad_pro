@@ -696,7 +696,7 @@
         "uuid": "e464f1d1-4c01-4fad-a203-20008a0f30b7"
       }
     ],
-    "used_designators": "KC_BKSP2,D42,KC_BSLS2",
+    "used_designators": "KC_BKSP2,#PWR16,D42,KC_BSLS2,TP1-20",
     "variants": []
   },
   "sheets": [

@@ -5,6 +5,129 @@
 	(uuid "e464f1d1-4c01-4fad-a203-20008a0f30b7")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
 				(offset 1.016)
@@ -4368,16 +4491,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 26.67) (xy 172.72 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "094fc3df-6372-4b0b-9dad-97b55a08d0ce")
-	)
-	(wire
-		(pts
 			(xy 228.6 46.99) (xy 238.76 46.99)
 		)
 		(stroke
@@ -4578,6 +4691,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 22.86) (xy 121.92 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2698bb6d-c5ed-4441-8b1d-82206322ecb3")
+	)
+	(wire
+		(pts
 			(xy 152.4 34.29) (xy 152.4 52.07)
 		)
 		(stroke
@@ -4598,13 +4721,13 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 26.67) (xy 132.08 34.29)
+			(xy 162.56 22.86) (xy 162.56 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2c957cdc-bde5-4299-bdbd-485e0e0906b7")
+		(uuid "29878c4c-2ee6-4cf1-9b83-715261f55842")
 	)
 	(wire
 		(pts
@@ -4668,7 +4791,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 26.67) (xy 223.52 34.29)
+			(xy 223.52 22.86) (xy 223.52 34.29)
 		)
 		(stroke
 			(width 0)
@@ -4758,16 +4881,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 26.67) (xy 162.56 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ecb7873-37b0-4760-8340-2a2cbc3542e4")
-	)
-	(wire
-		(pts
 			(xy 213.36 34.29) (xy 213.36 52.07)
 		)
 		(stroke
@@ -4848,6 +4961,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 22.86) (xy 182.88 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f9d2c74-b707-413b-89f0-7807a56b1a7d")
+	)
+	(wire
+		(pts
 			(xy 238.76 46.99) (xy 248.92 46.99)
 		)
 		(stroke
@@ -4865,6 +4988,16 @@
 			(type default)
 		)
 		(uuid "5394e576-26bb-4c67-95a5-4a890c295f5d")
+	)
+	(wire
+		(pts
+			(xy 111.76 22.86) (xy 111.76 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55913253-c4df-472d-8d2f-f01ffe03f53d")
 	)
 	(wire
 		(pts
@@ -5018,7 +5151,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 26.67) (xy 233.68 34.29)
+			(xy 233.68 22.86) (xy 233.68 34.29)
 		)
 		(stroke
 			(width 0)
@@ -5088,16 +5221,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 26.67) (xy 182.88 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e3b1577-66c7-4304-9707-e6db2173626a")
-	)
-	(wire
-		(pts
 			(xy 187.96 46.99) (xy 198.12 46.99)
 		)
 		(stroke
@@ -5138,7 +5261,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 26.67) (xy 243.84 34.29)
+			(xy 243.84 22.86) (xy 243.84 34.29)
 		)
 		(stroke
 			(width 0)
@@ -5178,7 +5301,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 26.67) (xy 152.4 34.29)
+			(xy 152.4 22.86) (xy 152.4 34.29)
 		)
 		(stroke
 			(width 0)
@@ -5188,7 +5311,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 26.67) (xy 213.36 34.29)
+			(xy 213.36 22.86) (xy 213.36 34.29)
 		)
 		(stroke
 			(width 0)
@@ -5328,16 +5451,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 26.67) (xy 121.92 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99d2aabb-3e1c-4141-8b44-02f77af4293d")
-	)
-	(wire
-		(pts
 			(xy 228.6 82.55) (xy 238.76 82.55)
 		)
 		(stroke
@@ -5435,6 +5548,16 @@
 			(type default)
 		)
 		(uuid "a45b8de4-deb2-4654-b49a-dd79864c598b")
+	)
+	(wire
+		(pts
+			(xy 172.72 22.86) (xy 172.72 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4c6fcb8-760f-4de2-acad-9d3e1f9006bd")
 	)
 	(wire
 		(pts
@@ -5558,7 +5681,17 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 26.67) (xy 193.04 34.29)
+			(xy 132.08 22.86) (xy 132.08 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbd58d2c-d356-4e4c-b454-2f60f724eb5f")
+	)
+	(wire
+		(pts
+			(xy 193.04 22.86) (xy 193.04 34.29)
 		)
 		(stroke
 			(width 0)
@@ -5585,16 +5718,6 @@
 			(type default)
 		)
 		(uuid "bef50b88-cf4a-4a86-9089-d94739e70835")
-	)
-	(wire
-		(pts
-			(xy 111.76 26.67) (xy 111.76 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c10d18f1-e363-4f49-9556-43588c3bb80a")
 	)
 	(wire
 		(pts
@@ -5638,7 +5761,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 26.67) (xy 203.2 34.29)
+			(xy 203.2 22.86) (xy 203.2 34.29)
 		)
 		(stroke
 			(width 0)
@@ -5828,7 +5951,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 26.67) (xy 142.24 34.29)
+			(xy 142.24 22.86) (xy 142.24 34.29)
 		)
 		(stroke
 			(width 0)
@@ -7595,6 +7718,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 193.04 22.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14ea2f21-00c0-4ed8-923d-ce7471084a8e")
+		(property "Reference" "TP10"
+			(at 195.58 18.2879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 195.58 20.8279 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 198.12 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 193.04 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9fe68efe-eee6-45ea-9f15-0a18e5afdfd7")
+		)
+		(instances
+			(project "VP_Solder"
+				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 43.18 25.4 0)
 		(unit 1)
@@ -7962,6 +8164,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 146.05 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1aca8f8c-c3ce-4f88-bd91-2b9e3308690e")
+		(property "Reference" "TP1"
+			(at 148.59 135.1279 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 148.59 137.6679 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.0mm_Drill0.7mm"
+			(at 151.13 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 146.05 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0972b03f-d8c7-472e-ab38-4091a750c0bb")
+		)
+		(instances
+			(project "VP_Solder"
+				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "marbastlib-mx:MX_SW_solder")
 		(at 236.22 54.61 0)
 		(unit 1)
@@ -8219,6 +8500,85 @@
 			(project "VP_Solder"
 				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 182.88 22.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "253ce494-698b-4570-ac51-55b9e5faa3fc")
+		(property "Reference" "TP9"
+			(at 185.42 18.2879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 185.42 20.8279 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 187.96 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 182.88 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "703b67d6-ce05-4bd5-b938-a5577ff5e108")
+		)
+		(instances
+			(project "VP_Solder"
+				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -9299,6 +9659,85 @@
 			(project "VP_Solder"
 				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
 					(reference "KC_BKSP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 213.36 22.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3304abc1-fbdb-44f2-a1ed-1bf091ecdab2")
+		(property "Reference" "TP12"
+			(at 215.9 18.2879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 215.9 20.8279 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 218.44 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 213.36 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e151bfb1-b32d-4eef-a060-58a793ba17a7")
+		)
+		(instances
+			(project "VP_Solder"
+				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -11326,6 +11765,164 @@
 			(project "VP_Solder"
 				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 233.68 22.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4aaea77b-890c-4336-ad75-d787a37a612d")
+		(property "Reference" "TP14"
+			(at 236.22 18.2879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 236.22 20.8279 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 238.76 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 233.68 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3d66c134-717c-42c7-82e6-f1ee3ccf5d1f")
+		)
+		(instances
+			(project "VP_Solder"
+				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
+					(reference "TP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 152.4 22.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d7885e1-e1ac-4866-b713-50f2d5f1d93e")
+		(property "Reference" "TP6"
+			(at 154.94 18.2879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 154.94 20.8279 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 157.48 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 152.4 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c48a6bb9-f716-40fe-a962-4f9ea439201f")
+		)
+		(instances
+			(project "VP_Solder"
+				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -13462,6 +14059,164 @@
 			(project "VP_Solder"
 				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
 					(reference "KC_9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 172.72 22.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7762a9fa-b8e0-4432-97a4-fe0faee66da1")
+		(property "Reference" "TP8"
+			(at 175.26 18.2879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 175.26 20.8279 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 177.8 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 172.72 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a7690977-a00b-4fec-b8cb-917a93f1f06c")
+		)
+		(instances
+			(project "VP_Solder"
+				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 243.84 22.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "781e53d8-a0e7-4494-b56b-57c3b699f8f4")
+		(property "Reference" "TP15"
+			(at 246.38 18.2879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 246.38 20.8279 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 248.92 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 243.84 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e50bd63d-1d7c-4f27-af23-c1a262780d5d")
+		)
+		(instances
+			(project "VP_Solder"
+				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -17060,6 +17815,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 142.24 22.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b08d6462-65a9-436e-aa62-948f4ff7e59b")
+		(property "Reference" "TP5"
+			(at 144.78 18.2879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 144.78 20.8279 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 147.32 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 142.24 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fc577d5c-5f8a-41e0-a17b-45a586f9b618")
+		)
+		(instances
+			(project "VP_Solder"
+				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4148")
 		(at 238.76 43.18 90)
 		(unit 1)
@@ -17317,6 +18151,85 @@
 			(project "VP_Solder"
 				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 203.2 22.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7b3f7a6-dc26-4382-90b5-3ba4be2074a1")
+		(property "Reference" "TP11"
+			(at 205.74 18.2879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 205.74 20.8279 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 208.28 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 203.2 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8f524664-b6c5-472c-b315-18c0e2ffd217")
+		)
+		(instances
+			(project "VP_Solder"
+				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -17992,6 +18905,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 162.56 22.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c98ac5a2-ac6d-4750-bec2-57185aa40eca")
+		(property "Reference" "TP7"
+			(at 165.1 18.2879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 165.1 20.8279 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 167.64 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 162.56 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3ec4e631-5086-439c-baaa-ea02a572eb7a")
+		)
+		(instances
+			(project "VP_Solder"
+				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "marbastlib-mx:MX_SW_solder")
 		(at 205.74 72.39 0)
 		(unit 1)
@@ -18148,6 +19140,85 @@
 			(project "VP_Solder"
 				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
 					(reference "KC_J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 111.76 22.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0c8971b-fb93-454f-8f4b-6552c5197753")
+		(property "Reference" "TP2"
+			(at 114.3 18.2879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 114.3 20.8279 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 116.84 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 111.76 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e33aa7d2-1e8e-43d7-b6f9-67a87d67bc54")
+		)
+		(instances
+			(project "VP_Solder"
+				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -19643,6 +20714,163 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 146.05 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec90603c-ea35-422d-a2d9-e6b762e0f50e")
+		(property "Reference" "#PWR016"
+			(at 146.05 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 146.05 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 146.05 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f8e1cbd8-4346-4a37-80d9-335c09d57c3f")
+		)
+		(instances
+			(project "VP_Solder"
+				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 132.08 22.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "edf62c50-73dc-4182-b40e-7176c4245074")
+		(property "Reference" "TP4"
+			(at 134.62 18.2879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 134.62 20.8279 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 137.16 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 132.08 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "74f0f658-d71c-40a2-903d-918d09197dce")
+		)
+		(instances
+			(project "VP_Solder"
+				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 73.66 173.99 0)
 		(unit 1)
@@ -19958,6 +21186,85 @@
 			(project "VP_Solder"
 				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
 					(reference "KC_O1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 121.92 22.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2d5176d-4942-4881-bb93-6a6c892209ae")
+		(property "Reference" "TP3"
+			(at 124.46 18.2879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 124.46 20.8279 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 127 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 121.92 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "508977e1-7e62-4015-a172-9f0dedb71f20")
+		)
+		(instances
+			(project "VP_Solder"
+				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -20328,6 +21635,85 @@
 			(project "VP_Solder"
 				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
 					(reference "D30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 223.52 22.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f911ef91-7a55-442a-9ed5-1d52844851c9")
+		(property "Reference" "TP13"
+			(at 226.06 18.2879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 226.06 20.8279 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 228.6 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 223.52 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "df80ccd3-57da-418a-a465-1fcad9dc4dc6")
+		)
+		(instances
+			(project "VP_Solder"
+				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
+					(reference "TP13")
 					(unit 1)
 				)
 			)
