@@ -492,7 +492,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "bb60_v1.kicad_pro",
+    "filename": "VP_Solder.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -691,18 +691,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "bb60_v1.kicad_sch",
-        "name": "bb60_v1",
+        "filename": "VP_Solder.kicad_sch",
+        "name": "VP_Solder",
         "uuid": "e464f1d1-4c01-4fad-a203-20008a0f30b7"
       }
     ],
-    "used_designators": "",
+    "used_designators": "KC_BKSP2,D42,KC_BSLS2",
     "variants": []
   },
   "sheets": [
     [
       "e464f1d1-4c01-4fad-a203-20008a0f30b7",
-      "bb60_v1"
+      "VP_Solder"
     ]
   ],
   "text_variables": {},
