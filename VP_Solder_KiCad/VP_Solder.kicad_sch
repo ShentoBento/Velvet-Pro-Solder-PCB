@@ -3566,6 +3566,18 @@
 		(uuid "cc84b8f2-48e4-416b-90e7-11ae4ad2bfb8")
 	)
 	(rectangle
+		(start 154.94 158.75)
+		(end 173.99 195.58)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "dbe07193-a023-4c6a-8a35-0cc01e00d16e")
+	)
+	(rectangle
 		(start 13.97 129.54)
 		(end 99.06 156.21)
 		(stroke
@@ -8165,7 +8177,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 146.05 139.7 0)
+		(at 160.02 177.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8176,7 +8188,7 @@
 		(fields_autoplaced yes)
 		(uuid "1aca8f8c-c3ce-4f88-bd91-2b9e3308690e")
 		(property "Reference" "TP1"
-			(at 148.59 135.1279 0)
+			(at 162.56 173.2279 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8187,7 +8199,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 148.59 137.6679 0)
+			(at 162.56 175.7679 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8198,7 +8210,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.0mm_Drill0.7mm"
-			(at 151.13 139.7 0)
+			(at 165.1 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8209,7 +8221,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 139.7 0)
+			(at 165.1 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8220,7 +8232,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 146.05 139.7 0)
+			(at 160.02 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20715,7 +20727,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 146.05 139.7 0)
+		(at 160.02 177.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20726,7 +20738,7 @@
 		(fields_autoplaced yes)
 		(uuid "ec90603c-ea35-422d-a2d9-e6b762e0f50e")
 		(property "Reference" "#PWR016"
-			(at 146.05 146.05 0)
+			(at 160.02 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20737,7 +20749,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 146.05 144.78 0)
+			(at 160.02 182.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20747,7 +20759,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 139.7 0)
+			(at 160.02 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20758,7 +20770,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 139.7 0)
+			(at 160.02 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20769,7 +20781,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 146.05 139.7 0)
+			(at 160.02 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
