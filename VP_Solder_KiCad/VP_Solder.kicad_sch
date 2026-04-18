@@ -500,146 +500,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R_Small"
 			(pin_numbers
 				(hide yes)
@@ -3518,18 +3378,6 @@
 		(uuid "282c3482-edee-4b00-913c-e1427636f93b")
 	)
 	(rectangle
-		(start 101.6 129.54)
-		(end 134.62 156.21)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "3c5f0658-d4ee-4398-b86f-68fa41c068a9")
-	)
-	(rectangle
 		(start 113.03 158.75)
 		(end 152.4 195.58)
 		(stroke
@@ -3704,16 +3552,6 @@
 			)
 		)
 		(uuid "ff063abc-050e-4853-810c-5dc50a5bc314")
-	)
-	(text "USB Resistors (20ohm)"
-		(exclude_from_sim no)
-		(at 117.856 132.334 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ff92b5f7-36c8-477b-98a8-d71f1b739a79")
 	)
 	(junction
 		(at 147.32 69.85)
@@ -6241,15 +6079,15 @@
 		)
 		(uuid "38dffced-a8d4-4b91-b1af-4410e75b44c6")
 	)
-	(label "ESD_D+"
-		(at 114.3 153.67 180)
+	(label "ESD_D-"
+		(at 60.96 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "39c7bd5b-a6d3-4cf8-a2f6-ec44be287c05")
+		(uuid "42703e21-2e7b-4bb9-85d8-4a7c157cbc73")
 	)
 	(label "COL6"
 		(at 172.72 31.75 180)
@@ -6280,16 +6118,6 @@
 			(justify left bottom)
 		)
 		(uuid "4e554a4c-2215-48e6-895f-fdfb8e80c056")
-	)
-	(label "RES_D-"
-		(at 121.92 142.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "54cde068-2122-41e3-b487-e739763f99fd")
 	)
 	(label "COL10"
 		(at 25.4 59.69 180)
@@ -6481,16 +6309,6 @@
 		)
 		(uuid "b172ed8c-8476-4b73-b215-cb5eb9931e8b")
 	)
-	(label "ESD_D-"
-		(at 114.3 142.24 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b3c3325c-8091-44f9-adc4-8d88b48d989d")
-	)
 	(label "ROW2"
 		(at 248.92 87.63 0)
 		(effects
@@ -6510,16 +6328,6 @@
 			(justify right bottom)
 		)
 		(uuid "bc226aa3-dca0-4dd4-81cd-7f0f76b9b6d2")
-	)
-	(label "RES_D+"
-		(at 60.96 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ca87a6cd-3daa-435d-b0fc-7a427c9b0387")
 	)
 	(label "COL12"
 		(at 25.4 54.61 180)
@@ -6581,16 +6389,6 @@
 		)
 		(uuid "dadc9255-0b1a-4b42-8d60-fd2e5b539476")
 	)
-	(label "RES_D+"
-		(at 121.92 153.67 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e190d986-69ae-4a12-9a23-9dcace91a553")
-	)
 	(label "ROW3"
 		(at 248.92 105.41 0)
 		(effects
@@ -6611,15 +6409,15 @@
 		)
 		(uuid "eb3eceb7-8daf-4755-a85e-715e35acda2b")
 	)
-	(label "RES_D-"
-		(at 60.96 64.77 0)
+	(label "ESD_D+"
+		(at 60.96 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "f89a4b21-a439-45b4-9b9b-c310306d0afb")
+		(uuid "fff2aba2-91cd-48e2-9232-30188ba3f24d")
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
@@ -17299,86 +17097,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 118.11 153.67 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a4311cc5-e4ba-48ba-9338-b8e880eac118")
-		(property "Reference" "R3"
-			(at 118.11 147.32 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22"
-			(at 118.11 149.86 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 118.11 151.892 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 118.11 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "78d195f7-87bb-497e-85d1-1f6e75dc24c1")
-		)
-		(pin "2"
-			(uuid "aec4255c-5ac4-4090-ac44-45d792b3353c")
-		)
-		(instances
-			(project "VP_Solder"
-				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 213.36 147.32 0)
 		(unit 1)
@@ -21463,86 +21181,6 @@
 			(project "VP_Solder"
 				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
 					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 118.11 142.24 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f5695f9d-7128-4bb3-9b6e-bf4afd1873a0")
-		(property "Reference" "R2"
-			(at 118.11 135.89 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22"
-			(at 118.11 138.43 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 118.11 140.462 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 118.11 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "75fa06b1-c042-40e8-8fa6-ed33338af836")
-		)
-		(pin "2"
-			(uuid "65314aa3-d6bb-48ef-b021-0789e36642ab")
-		)
-		(instances
-			(project "VP_Solder"
-				(path "/e464f1d1-4c01-4fad-a203-20008a0f30b7"
-					(reference "R2")
 					(unit 1)
 				)
 			)

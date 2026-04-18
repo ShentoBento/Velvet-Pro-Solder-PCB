@@ -499,7 +499,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -696,7 +696,7 @@
         "uuid": "e464f1d1-4c01-4fad-a203-20008a0f30b7"
       }
     ],
-    "used_designators": "GND1",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
