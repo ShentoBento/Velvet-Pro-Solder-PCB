@@ -8,3 +8,5 @@ Specs:
 - Fixed r-shfit
 - Stepped or full caps lock
 - Split or full backspace
+
+Firmware: https://github.com/ShentoBento/Velvet-Pro-PCB-Firmware/new/main?filename=README.md
