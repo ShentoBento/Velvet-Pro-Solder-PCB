@@ -78,30 +78,6 @@
       ],
       "drc_exclusions": [
         [
-          "clearance|350123017|72390064|f83aeeaf-a308-4366-9fbb-f6beb54d02ca|abe65af1-6db9-4ad3-acd4-a41d6042f5e1",
-          ""
-        ],
-        [
-          "copper_edge_clearance|155338507|162750756|5c56b841-cb6f-49fa-8d4f-6795f048770c|7a27ca34-ca15-471b-9772-dc6e953d713c",
-          ""
-        ],
-        [
-          "copper_edge_clearance|269638482|162750782|eb698b91-128a-4590-94db-364fa8730776|f654ba0b-be7e-4302-99fd-6a383455d80b",
-          ""
-        ],
-        [
-          "copper_edge_clearance|326387690|69376607|f8ec5861-1fbc-4ab7-b1d4-5019904d0c53|07a84ba6-7c39-44a3-b929-13778691ba59",
-          ""
-        ],
-        [
-          "copper_edge_clearance|348684313|69835995|d34855f5-facc-4059-b5d0-a792b4b10a8f|f83aeeaf-a308-4366-9fbb-f6beb54d02ca",
-          ""
-        ],
-        [
-          "copper_edge_clearance|349742231|124060799|eeabf96e-3758-4be0-80ac-c649bf0702e6|55571265-7d73-4768-8ee1-c73a07ab4332",
-          ""
-        ],
-        [
           "copper_edge_clearance|351128336|129673848|eeabf96e-3758-4be0-80ac-c649bf0702e6|94b259f1-3d7d-4d46-91a5-bec333c278d1",
           ""
         ],
@@ -126,10 +102,6 @@
           ""
         ],
         [
-          "hole_to_hole|350043534|71437628|abe65af1-6db9-4ad3-acd4-a41d6042f5e1|f83aeeaf-a308-4366-9fbb-f6beb54d02ca",
-          ""
-        ],
-        [
           "hole_to_hole|83026250|116522500|ad2fe8c7-5135-425d-89fa-4c07458d8ec5|b4d4d028-3a72-4b89-b28e-6a76d732ba70",
           ""
         ],
@@ -139,18 +111,6 @@
         ],
         [
           "hole_to_hole|88106250|116522500|3ce4d8c6-cd06-426e-827a-b53b7f1b4f25|5d5aa705-1530-42e5-9b1f-09fd97b64c12",
-          ""
-        ],
-        [
-          "shorting_items|350202500|73342500|dac002ea-6e79-4806-9c2a-93628810f8f5|f83aeeaf-a308-4366-9fbb-f6beb54d02ca",
-          ""
-        ],
-        [
-          "solder_mask_bridge|350123017|72390064|f83aeeaf-a308-4366-9fbb-f6beb54d02ca|abe65af1-6db9-4ad3-acd4-a41d6042f5e1",
-          ""
-        ],
-        [
-          "solder_mask_bridge|350202500|73342500|dac002ea-6e79-4806-9c2a-93628810f8f5|f83aeeaf-a308-4366-9fbb-f6beb54d02ca",
           ""
         ],
         [
