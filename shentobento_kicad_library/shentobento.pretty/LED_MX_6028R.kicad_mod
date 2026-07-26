@@ -482,7 +482,7 @@
 		(chamfer top_left)
 		(uuid "fb40567e-66bf-446b-9ad4-e08caf938ed7")
 	)
-	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/LED_SK6812MINI-E.step"
+	(model "${KIPRJMOD}/../shentobento_kicad_library/3dmodels/LED_SK6812MINI-E.step"
 		(offset
 			(xyz 0 5.08 -1.75)
 		)

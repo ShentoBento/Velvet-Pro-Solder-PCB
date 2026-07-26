@@ -2,4 +2,5 @@
 	(version 7)
 	(lib (name "marbastlib-mx") (type "KiCad") (uri "${KIPRJMOD}/../libraries/symbols/marbastlib-mx.kicad_sym") (options "") (descr ""))
 	(lib (name "marbastlib-various") (type "KiCad") (uri "${KIPRJMOD}/../libraries/symbols/marbastlib-various.kicad_sym") (options "") (descr ""))
+	(lib (name "shentobento") (type "KiCad") (uri "C:/Users/shent/Documents/Github Repos/Velvet-Pro-Solder-PCB/shentobento_kicad_library/shentobento.kicad_sym") (options "") (descr ""))
 )

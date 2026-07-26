@@ -315,7 +315,7 @@
 		(roundrect_rratio 0.1)
 		(uuid "3f41458d-bb7c-40ab-a08b-60dc811495e1")
 	)
-	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/LED_MHT151RGBCT.step"
+	(model "${KIPRJMOD}/../shentobento_kicad_library/3dmodels/LED_MHT151RGBCT.step"
 		(offset
 			(xyz 0 0 0)
 		)
