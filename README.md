@@ -1,6 +1,6 @@
 # Velvet Pro Solder PCB
 
-<img src="images\VP_Solder_Front_Render.png" width="700">
+<img src="images\VP_Solder_Front_Render.png" width="800">
 
 A solder PCB designed to fit the Velvet Pro keyboard by Ampersandy.
 
@@ -19,6 +19,8 @@ Firmware: https://github.com/ShentoBento/Velvet-Pro-PCB-Firmware
 - Stepped or full caps lock
 - Split or full backspace
 - VIA and Vial compatible (via the firmware linked above)
+
+<img src="images\MCU_Closeup.png" width="600">
 
 ---
 
