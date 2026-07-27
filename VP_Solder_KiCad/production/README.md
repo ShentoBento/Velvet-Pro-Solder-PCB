@@ -17,6 +17,9 @@ You do **not** need KiCad for this. Everything you need is in
 
 ## Ordering from JLCPCB with Assembly
 
+**Estimated Costs:** $20-30/PCB shipped to US (tariffs included)
+**Fullfillment Time:** Around 2-3 weeks
+
 <img src="../../images/JLC1.png" width="800">
 
 1. Go to [jlcpcb.com](https://jlcpcb.com), click order, and then **Add gerber file**.
