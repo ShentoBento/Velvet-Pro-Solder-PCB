@@ -553,7 +553,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../reference files and images/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
