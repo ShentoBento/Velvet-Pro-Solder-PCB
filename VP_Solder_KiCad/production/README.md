@@ -17,6 +17,8 @@ You do **not** need KiCad for this. Everything you need is in
 
 ## Ordering from JLCPCB with Assembly
 
+<img src="images\JLC1.png" width="600">
+
 1. Go to [jlcpcb.com](https://jlcpcb.com), click order, and then **Add gerber file**.
 2. Upload `VP_Solder.zip`.
 3. Wait for the preview to load, then check it against the images in this
@@ -61,6 +63,12 @@ You do **not** need KiCad for this. Everything you need is in
    faces UP. Make sure each components' purple dot is lined up with the triangle
    on the pcb. Make sure to verify **U2** is in the correct orientation, JLC
    likes flipping that one 90 degrees.
+
+<img src="images\JLC2.png" width="600">
+
+10. At the last stage, set your product description as **Office Applicance and Accessories** -> **Keyboard HS Code 847330**
+
+<img src="images\JLC3.png" width="600">
    
 ## After it arrives
 
