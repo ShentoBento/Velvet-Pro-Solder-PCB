@@ -39,7 +39,7 @@ You do **not** need KiCad for this. Everything you need is in
 | --- | --- | --- | --- | --- |
 | C1–C5, C9 | 100 nF | 0201 | C76934 | C76938, C66938, C76928, C49062 |
 | C6 | 10 µF | 0805 | C440198 | C15850, C1713, C40894 |
-| C7, C8 | 1 µF | 0201 | C76935 | - |
+| C7, C8 | 1 µF | 0201 | C76935 | C53067, C87143, C76930 |
 | D1–D62 | 1N4148W | **SOD-123** | C81598 | C84367, C83528 |
 | R1 | 10 kΩ | 0201 | C7467266 | C106225, C138117, C102684 |
 | U1 | STM32F072CBT6 | LQFP-48 | C81720 | - |
@@ -55,8 +55,12 @@ You do **not** need KiCad for this. Everything you need is in
 - Some parts in this table might be out of stock when you check.
   Just choose from the alternative column.
 
-9. Review the component placement preview. Check that the MCU's pin 1 marker
-   lines up with the silkscreen dot.
+9. After clicking **Next** you are then asked to confirm component placements.
+   Sometimes JLC will incorrectly rotate a part, so this is an important step.
+   Review the component placement preview. Check that the diodes' positive end
+   faces UP. Make sure each components' purple dot is lined up with the triangle
+   on the pcb. Make sure to verify **U2** is in the correct orientation, JLC
+   likes flipping that one 90 degrees.
    
 ## After it arrives
 
