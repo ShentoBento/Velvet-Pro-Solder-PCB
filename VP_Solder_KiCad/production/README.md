@@ -35,23 +35,25 @@ You do **not** need KiCad for this. Everything you need is in
 8. JLCPCB will attempt to match your parts from the BOM to parts in stock. Some parts
    will be unmatched. Check each part to match to the JLC part in this table:
 
-| Designators | Value | Package | JLCPCB part |
-| --- | --- | --- | --- |
-| C1–C5, C9 | 100 nF | 0201 | C76934 |
-| C6 | 10 µF | 0805 | C440198 |
-| C7, C8 | 1 µF | 0201 | C76935 |
-| D1–D62 | 1N4148W | **SOD-123** | C81598 |
-| R1 | 10 kΩ | 0201 | C7467266 |
-| U1 | STM32F072CBT6 | LQFP-48 | C81720 |
-| U2 | XC6206P332MR | SOT-23-3 | C5446 |
-| U3 | USBLC6-2SC6 | SOT-23-6 | C2827654 |
-| SW1, SW2 | TS-1187A-B-A-B | SMD tactile | C318884 |
-| J1 | SM04B-SRSS-TB | JST SH 4-pin | C160404 |
+| Designators | Value | Package | JLCPCB part ID | Alternative JLCPCB Part ID's |
+| --- | --- | --- | --- | --- |
+| C1–C5, C9 | 100 nF | 0201 | C76934 | C76938, C66938, C76928, C49062 |
+| C6 | 10 µF | 0805 | C440198 | C15850, C1713, C40894 |
+| C7, C8 | 1 µF | 0201 | C76935 | - |
+| D1–D62 | 1N4148W | **SOD-123** | C81598 | C84367, C83528 |
+| R1 | 10 kΩ | 0201 | C7467266 | C106225, C138117, C102684 |
+| U1 | STM32F072CBT6 | LQFP-48 | C81720 | - |
+| U2 | XC6206P332MR | SOT-23-3 | C5446 | - |
+| U3 | USBLC6-2SC6 | SOT-23-6 | C2827654 | - |
+| SW1, SW2 | TS-1187A-B-A-B | SMD tactile | C318884 | - |
+| J1 | SM04B-SRSS-TB | JST SH 4-pin | C160404 | - |
 
 **Please note:**
 - The MCU uses the **CB** variant **STM32F072CBT6** (128 KB flash), not C8
 (64 KB).
 - Leave Test points and GND1 as unmatched.
+- Some parts in this table might be out of stock when you check.
+  Just choose from the alternative column.
 
 9. Review the component placement preview. Check that the MCU's pin 1 marker
    lines up with the silkscreen dot.
