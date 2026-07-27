@@ -1,4 +1,4 @@
 (sym_lib_table
 	(version 7)
-	(lib (name "shentobento") (type "KiCad") (uri "C:/Users/shent/Documents/Github Repos/Velvet-Pro-Solder-PCB/shentobento_kicad_library/shentobento.kicad_sym") (options "") (descr ""))
+	(lib (name "shentobento") (type "KiCad") (uri "${KIPRJMOD}/../shentobento_kicad_library/shentobento.kicad_sym") (options "") (descr ""))
 )
