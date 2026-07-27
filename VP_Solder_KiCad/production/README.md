@@ -30,14 +30,13 @@ You do **not** need KiCad for this. Everything you need is in
    (1.6mm thickness, HASL, 2 layers, FR4) are correct for this board. 1.2mm
    also works but you will need stabilizer shims. Don't change anything in the
    **High-Spec Options** section.
-5. Toggle **PCB Assembly** on.
-6. Choose **Assemble bottom side** — all components on this board are on the bottom.
-   You will need to choose the **Standard** PCBA option, keep other options as default
+5. Toggle **PCB Assembly** on. Choose **Assemble bottom side**. You will need to
+   choose the **Standard** PCBA option, keep other options as default
    (Parts Selection by customer, OPTIONAL: Confirm parts placement).
-7. CLick **Save to Cart** and you will see a preview of the PCB, click next, and
+6. CLick **Save to Cart** and you will see a preview of the PCB, click next, and
    upload `bom.csv` when asked for the BOM and `positions.csv` when asked for the
    CPL / pick-and-place file. Then click **Process BOM & CPL**.
-8. JLCPCB will attempt to match your parts from the BOM to parts in stock. Some parts
+7. JLCPCB will attempt to match your parts from the BOM to parts in stock. Some parts
    will be unmatched. Check each part to match to the JLC part in this table:
 
 | Designators | Value | Package | JLCPCB part ID | Alternative JLCPCB Part ID's |
@@ -54,16 +53,16 @@ You do **not** need KiCad for this. Everything you need is in
 | J1 | SM04B-SRSS-TB | JST SH 4-pin | C160404 | - |
 
 **Please note:**
-- The MCU uses the **CB** variant **STM32F072CBT6** (128 KB flash), not C8
+- The MCU uses the **CB** variant **STM32F072CBT6** (128 KB flash), not **C8**
 (64 KB).
 - Leave Test points and GND1 as unmatched.
 - Some parts in this table might be out of stock when you check.
   Just choose from the alternative column.
 
-9. After clicking **Next** you are then asked to confirm component placements.
+8. After clicking **Next** you are then asked to confirm component placements.
    Sometimes JLC will incorrectly rotate a part, so this is an important step.
    Review the component placement preview. Check that the diodes' positive end
-   faces UP. Make sure each components' purple dot is lined up with the triangle
+   faces **UP**. Make sure each components' purple dot is lined up with the triangle
    on the pcb. Make sure to verify **U2** is in the correct orientation, JLC
    likes flipping that one 90 degrees. As you can see here, U1 is in the incorrect orientation:
 
@@ -72,8 +71,3 @@ You do **not** need KiCad for this. Everything you need is in
 10. At the last stage, set your product description as **Office Applicance and Accessories** -> **Keyboard HS Code 847330**
 
 <img src="../../images/JLC3.png" width="800">
-   
-## After it arrives
-
-Flash the firmware:
-https://github.com/ShentoBento/Velvet-Pro-PCB-Firmware
