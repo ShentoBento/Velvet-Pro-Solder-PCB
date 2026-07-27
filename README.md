@@ -1,6 +1,6 @@
 # Velvet Pro Solder PCB
 
-![PCB front](images\VP_Solder_Front_Render.png) 
+<img src="images\VP_Solder_Front_Render.png" width="700">
 
 A solder PCB designed to fit the Velvet Pro keyboard by Ampersandy.
 
