@@ -1,5 +1,7 @@
 # Velvet Pro Solder PCB
 
+![PCB front](reference files and images\images\VP_Solder_Front_Render.png) 
+
 A solder PCB designed to fit the Velvet Pro keyboard by Ampersandy.
 
 Firmware: https://github.com/ShentoBento/Velvet-Pro-PCB-Firmware
