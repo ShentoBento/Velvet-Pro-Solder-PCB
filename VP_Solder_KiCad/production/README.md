@@ -13,8 +13,6 @@ You do **not** need KiCad for this. Everything you need is in
 | `bom.csv` | Which parts to solder on. Only needed for assembly. |
 | `positions.csv` | Where those parts go. Only needed for assembly. |
 
-If you're soldering the components yourself, you only need `VP_Solder.zip`.
-
 ---
 
 ## Ordering from JLCPCB with Assembly
@@ -27,20 +25,37 @@ If you're soldering the components yourself, you only need `VP_Solder.zip`.
    (1.6mm thickness, HASL, 2 layers, FR4) are correct for this board. 1.2mm
    also works but you will need stabilizer shims. Don't change anything in the
    **High-Spec Options** section.
-6. Toggle **PCB Assembly** on.
-7. Choose **Assemble bottom side** — all components on this board are on the bottom.
+5. Toggle **PCB Assembly** on.
+6. Choose **Assemble bottom side** — all components on this board are on the bottom.
    You will need to choose the **Standard** PCBA option, keep other options as default
    (Parts Selection by customer, OPTIONAL: Confirm parts placement).
-9. CLick **Save to Cart** and you will see a preview of the PCB, click next, and
+7. CLick **Save to Cart** and you will see a preview of the PCB, click next, and
    upload `bom.csv` when asked for the BOM and `positions.csv` when asked for the
    CPL / pick-and-place file. Then click **Process BOM & CPL**.
-11. JLCPCB will show you each part and whether it's in stock. Parts that are
-   out of stock need a substitute or must be hand-soldered.
-12. Review the component placement preview. Check that the MCU's pin 1 marker
+8. JLCPCB will attempt to match your parts from the BOM to parts in stock. Some parts
+   will be unmatched. Check each part to match to the JLC part in this table:
+
+| Designators | Value | Package | JLCPCB part |
+| --- | --- | --- | --- |
+| C1–C5, C9 | 100 nF | 0201 | C76934 |
+| C6 | 10 µF | 0805 | C440198 |
+| C7, C8 | 1 µF | 0201 | C76935 |
+| D1–D62 | 1N4148W | **SOD-123** | C81598 |
+| R1 | 10 kΩ | 0201 | C7467266 |
+| U1 | STM32F072CBT6 | LQFP-48 | C81720 |
+| U2 | XC6206P332MR | SOT-23-3 | C5446 |
+| U3 | USBLC6-2SC6 | SOT-23-6 | C2827654 |
+| SW1, SW2 | TS-1187A-B-A-B | SMD tactile | C318884 |
+| J1 | SM04B-SRSS-TB | JST SH 4-pin | C160404 |
+
+**Please note:**
+- The MCU uses the **CB** variant **STM32F072CBT6** (128 KB flash), not C8
+(64 KB).
+- Leave Test points and GND1 as unmatched.
+
+9. Review the component placement preview. Check that the MCU's pin 1 marker
    lines up with the silkscreen dot.
-
----
-
+   
 ## After it arrives
 
 Flash the firmware:
