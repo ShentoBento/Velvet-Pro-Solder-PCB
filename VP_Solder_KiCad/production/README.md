@@ -62,7 +62,7 @@ You do **not** need KiCad for this. Everything you need is in
    Review the component placement preview. Check that the diodes' positive end
    faces UP. Make sure each components' purple dot is lined up with the triangle
    on the pcb. Make sure to verify **U2** is in the correct orientation, JLC
-   likes flipping that one 90 degrees.
+   likes flipping that one 90 degrees. As you can see here, U1 is in the incorrect orientation:
 
 <img src="../../images/JLC2.png" width="800">
 
