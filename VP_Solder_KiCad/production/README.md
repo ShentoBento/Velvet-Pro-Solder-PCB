@@ -17,33 +17,27 @@ If you're soldering the components yourself, you only need `VP_Solder.zip`.
 
 ---
 
-## Ordering the bare board
+## Ordering from JLCPCB with Assembly
 
-1. Go to [jlcpcb.com](https://jlcpcb.com) and click **Add gerber file**.
+1. Go to [jlcpcb.com](https://jlcpcb.com), click order, and then **Add gerber file**.
 2. Upload `VP_Solder.zip`.
 3. Wait for the preview to load, then check it against the images in this
    repo's README. The board outline should match.
 4. Leave the defaults alone unless you want a specific colour. The defaults
-   (1.6 mm thickness, HASL finish, 2 layers) are correct for this board.
-5. Add to cart and check out.
-
----
-
-## Ordering with assembly
-
-Same as above, then:
-
-1. Toggle **PCB Assembly** on before adding to cart.
-2. Choose **Assemble top side** — all components on this board are on the top.
-3. Continue, and upload `bom.csv` when asked for the BOM and `positions.csv`
-   when asked for the CPL / pick-and-place file.
-4. JLCPCB will show you each part and whether it's in stock. Parts that are
+   (1.6mm thickness, HASL, 2 layers, FR4) are correct for this board. 1.2mm
+   also works but you will need stabilizer shims. Don't change anything in the
+   **High-Spec Options** section.
+6. Toggle **PCB Assembly** on.
+7. Choose **Assemble bottom side** — all components on this board are on the bottom.
+   You will need to choose the **Standard** PCBA option, keep other options as default
+   (Parts Selection by customer, OPTIONAL: Confirm parts placement).
+9. CLick **Save to Cart** and you will see a preview of the PCB, click next, and
+   upload `bom.csv` when asked for the BOM and `positions.csv` when asked for the
+   CPL / pick-and-place file. Then click **Process BOM & CPL**.
+11. JLCPCB will show you each part and whether it's in stock. Parts that are
    out of stock need a substitute or must be hand-soldered.
-5. Review the component placement preview. Check that the MCU's pin 1 marker
+12. Review the component placement preview. Check that the MCU's pin 1 marker
    lines up with the silkscreen dot.
-
-Note that switches, stabilizers, and the JST connector are **not** assembled —
-those you solder yourself.
 
 ---
 
@@ -51,10 +45,3 @@ those you solder yourself.
 
 Flash the firmware:
 https://github.com/ShentoBento/Velvet-Pro-PCB-Firmware
-
----
-
-## If something looks wrong in the preview
-
-Don't order. Open an issue on this repo with a screenshot of what you're
-seeing. A wrong board costs more than a delay.
