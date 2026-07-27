@@ -68,6 +68,6 @@ You do **not** need KiCad for this. Everything you need is in
 
 <img src="../../images/JLC2.png" width="800">
 
-10. At the last stage, set your product description as **Office Applicance and Accessories** -> **Keyboard HS Code 847330**
+9. At the last stage, set your product description as **Office Applicance and Accessories** -> **Keyboard HS Code 847330**
 
 <img src="../../images/JLC3.png" width="800">
